@@ -1,7 +1,7 @@
 #Wifi Sniffing Tools Dockerfile
 This repository is meant to build the base image for a sniffing tools container.
 
-####Tools includede in this image.
+####Tools included in this image.
 
 1.  airmon-ng (with password dictionary`rockyou.txt` in `/opt/`)
 2.  ettercap
