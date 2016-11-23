@@ -5,6 +5,6 @@ RUN apt-get install -y vim net-tools conntrack traceroute inetutils-ping libcap*
 RUN echo "kismet kismet/install-setuid select true" | sudo debconf-set-selections
 RUN echo "kismet kismet/install-users string root" | sudo debconf-set-selections
 RUN apt-get install -y ettercap-text-only kismet aircrack-ng nmap
-ADD rockyou.txt /opt/rockyou.txt
+ADD http://scrapmaker.com/data/wordlists/dictionaries/rockyou.txt /opt/rockyou.txt
 CMD ["/bin/bash"]
 
