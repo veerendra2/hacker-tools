@@ -6,6 +6,7 @@ RUN pip install scapy
 RUN pip install --upgrade pip
 RUN echo "kismet kismet/install-setuid select true" | sudo debconf-set-selections
 RUN echo "kismet kismet/install-users string root" | sudo debconf-set-selections
-RUN apt-get install -y ettercap-text-only kismet aircrack-ng nmap yersinia dsniff dnsmasq hostapd macchanger
+RUN apt-get install -y ettercap-text-only kismet aircrack-ng nmap yersinia dsniff dnsmasq hostapd
+ADD https://raw.githubusercontent.com/veerendra2/wifi-deauth-attack/master/deauth.py /opt/deauth.py
 ADD http://scrapmaker.com/data/wordlists/dictionaries/rockyou.txt /opt/rockyou.txt
 CMD ["/bin/bash"]
