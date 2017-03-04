@@ -9,7 +9,7 @@ This repository is meant to build the base image for a Hacker Tools container.
 | 1   |[macof](http://manpages.ubuntu.com/manpages/xenial/man8/macof.8.html)|
 |2| [yersinia](http://manpages.ubuntu.com/manpages/trusty/man8/yersinia.8.html)|
 |3|[kismet](http://manpages.ubuntu.com/manpages/precise/man1/kismet.1.html)|
-|4 |[namp](http://manpages.ubuntu.com/manpages/xenial/man1/nmap.1.html)|
+|4 |[nmap](http://manpages.ubuntu.com/manpages/xenial/man1/nmap.1.html)|
 |5 |[dsniff](http://manpages.ubuntu.com/manpages/precise/man8/arpspoof.8.html)|
 |6 |[dnsmaq](http://manpages.ubuntu.com/manpages/trusty/man8/dnsmasq.8.html)|
 |7 |[hostapd](http://manpages.ubuntu.com/manpages/trusty/man8/hostapd.8.html)|
