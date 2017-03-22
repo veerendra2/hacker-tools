@@ -1,7 +1,7 @@
-#Hacker Tools Dockerfile
+# Hacker Tools Dockerfile
 This repository is meant to build the base image for a Hacker Tools container.
 
-####Tools included in this image.
+#### Tools included in this image.
 
 |      |  Tools  |
 |:---------|:-----------------|
@@ -22,11 +22,11 @@ This repository is meant to build the base image for a Hacker Tools container.
 |14|[ping](http://manpages.ubuntu.com/manpages/trusty/man8/ping.8.html)|
 
 
-####Pull the Image
-######`docker pull veerendrav2/hacker-tools`
+#### Pull the Image
+###### `docker pull veerendrav2/hacker-tools`
 
-####Run the Container
-######`docker run -it -d --net=host --privileged --name little-boy veerendrav2/hacker-tools`
+#### Run the Container
+###### `docker run -it -d --net=host --privileged --name little-boy veerendrav2/hacker-tools`
 
-###NOTE: 
-#####Must run the container with `--net=host --privileged` option. Then only you can capture the packets and monitor the network on physical interface(Example: `wlan0`)
+### NOTE: 
+##### Must run the container with `--net=host --privileged` option. Then only you can capture the packets and monitor the network on physical interface(Example: `wlan0`)
