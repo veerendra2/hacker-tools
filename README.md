@@ -1,3 +1,8 @@
+![Docker Stars](https://img.shields.io/docker/stars/veerendrav2/hacker-tools.svg?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/veerendra2/hacker-tools.svg?style=for-the-badge)
+![Docker Pulls](https://img.shields.io/docker/pulls/veerendrav2/hacker-tools.svg?style=for-the-badge)
+![MicroBadger Size (tag)](https://img.shields.io/microbadger/image-size/veerendrav2/hacker-tools/latest.svg?style=for-the-badge)
+
 # Hacker Tools Dockerfile
 This repository is meant to build the base image for a Hacker Tools container.
 
